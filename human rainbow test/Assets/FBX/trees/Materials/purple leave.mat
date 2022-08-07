@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: purple leave
   m_Shader: {fileID: 4800000, guid: 0e0019510d6142644b412d07db9dee4e, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON _BLENDMAINNORMAL_ON _SOURCE_SPECULARALPHA _USEBASECOLORALPHA_ON
+  m_ShaderKeywords: _BLENDMAINNORMAL_ON _SOURCE_SPECULARALPHA _USEBASECOLORALPHA_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -74,7 +74,7 @@ Material:
     - _BumpScale: 1
     - _ContrastDetailMap: 0
     - _Cull: 0
-    - _Cutoff: 0.72
+    - _Cutoff: 0.5
     - _DetailBrightness: 1
     - _DetailNormalMapScale: 1
     - _DetailSaturation: 0
@@ -90,7 +90,7 @@ Material:
     - _InvertCutout: 0
     - _InvertMask: 0
     - _Metallic: 0
-    - _Mode: 1
+    - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Saturation: 0
