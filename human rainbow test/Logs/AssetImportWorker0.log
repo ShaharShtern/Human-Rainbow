@@ -1,267 +1,335 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 14188 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 32681 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+E:\Unity editors\2021.3.8f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity Git/Human-Rainbow/human rainbow test
+E:/Github/Human-Rainbow/human rainbow test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61826
-Successfully changed project path to: D:/Unity Git/Human-Rainbow/human rainbow test
-D:/Unity Git/Human-Rainbow/human rainbow test
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.06 ms, found 2 plugins.
+62133
+Successfully changed project path to: E:/Github/Human-Rainbow/human rainbow test
+E:/Github/Human-Rainbow/human rainbow test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 22.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity Git/Human-Rainbow/human rainbow test/Assets
-GfxDevice: creating device client; threaded=0
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path E:/Unity editors/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Github/Human-Rainbow/human rainbow test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25e0)
-    Vendor:   
-    VRAM:     3990 MB
-    Driver:   30.0.15.1233
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8050 MB
+    Driver:   30.0.15.1295
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Mono path[0] = 'E:/Unity editors/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity editors/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity editors/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002876 seconds.
+Register platform support module: E:/Unity editors/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001867 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 20.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.435 seconds
+- Completed reload, in  0.406 seconds
 Domain Reload Profiling:
-	ReloadAssembly (436ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (407ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (314ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (278ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (96ms)
+			SetupTypeCache (66ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (124ms)
+			SetupLoadedEditorAssemblies (160ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (25ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (60ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				RefreshPlugins (21ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004211 seconds.
+Registered in 0.001643 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 20.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
+- Completed reload, in  0.678 seconds
 Domain Reload Profiling:
-	ReloadAssembly (956ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (678ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (802ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (521ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (120ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (434ms)
+			SetupLoadedEditorAssemblies (289ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (26ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (331ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (21ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1702 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.1 MB.
-System memory in use after: 102.1 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2162.
-Total: 2.499300 ms (FindLiveObjects: 0.122500 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.192700 ms  DeleteObjects: 0.143200 ms)
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (1.5 MB). Loaded Objects now: 2359.
+Memory consumption went from 105.1 MB to 103.6 MB.
+Total: 3.928500 ms (FindLiveObjects: 0.243700 ms CreateObjectMapping: 0.063800 ms MarkObjects: 3.229100 ms  DeleteObjects: 0.391000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/FBX/trees/Materials/purple leave.mat
-  artifactKey: Guid(4692e4b671f6ea944877e0319fac458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/trees/Materials/purple leave.mat using Guid(4692e4b671f6ea944877e0319fac458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6da8a954dc98e7a9d469c26805c607') in 0.099766 seconds 
+  Time since last request: 1211885.222165 seconds.
+  path: Assets/firepit_Rock_M_BaseColor.png
+  artifactKey: Guid(d644cf2112279414e83f1cfb43ffbfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/firepit_Rock_M_BaseColor.png using Guid(d644cf2112279414e83f1cfb43ffbfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84e55836b08a417af712f9608a5b966') in 0.414654 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.614578 seconds.
-  path: Assets/FBX/trees/Materials/tree2_DefaultMaterial_BaseColor.png
-  artifactKey: Guid(776ad2042d1263a4ca1f825574c45766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/trees/Materials/tree2_DefaultMaterial_BaseColor.png using Guid(776ad2042d1263a4ca1f825574c45766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e4fcdf29e45bda600de649d50696a9') in 0.038712 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/firepit.fbx
+  artifactKey: Guid(b40f47b1cf6f2934e9ee629dcfba8d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/firepit.fbx using Guid(b40f47b1cf6f2934e9ee629dcfba8d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bec5dd673c993cc8b1fc8ead8633f51') in 0.716408 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/FBX/trees/Materials/tree2_DefaultMaterial_Roughness.png
-  artifactKey: Guid(52b61d7cf94ac40498c15da6a929d449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/trees/Materials/tree2_DefaultMaterial_Roughness.png using Guid(52b61d7cf94ac40498c15da6a929d449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74a006596e2db9c01d507e751b9e0ac') in 0.012396 seconds 
+  Time since last request: 137.335911 seconds.
+  path: Assets/Prefabs/Trees/tree.prefab
+  artifactKey: Guid(e57565215d3013d47975d479ce370844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Trees/tree.prefab using Guid(e57565215d3013d47975d479ce370844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7171acb010c5607878f6c8d1f72d16b7') in 0.335204 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/FBX/trees/Materials/tree2_DefaultMaterial_Metallic.png
-  artifactKey: Guid(373478bb1f4e80c46a9768b367ccd15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/trees/Materials/tree2_DefaultMaterial_Metallic.png using Guid(373478bb1f4e80c46a9768b367ccd15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01edb7a079f53995b61260d4e3221671') in 0.010170 seconds 
+  Time since last request: 675.143969 seconds.
+  path: Assets/Ciconia Studio/_Shared Files/UI/Button_Arrow-active.png
+  artifactKey: Guid(471a7d3216e978c42a8b9d91dc280141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/_Shared Files/UI/Button_Arrow-active.png using Guid(471a7d3216e978c42a8b9d91dc280141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03f43ace3585ea2eaebf99c9f8ba039') in 0.031647 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.994343 seconds.
-  path: Assets/FBX/trees/purplpe_tree.fbx
-  artifactKey: Guid(46668af210b1e1249b0726a3b4d4c216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/trees/purplpe_tree.fbx using Guid(46668af210b1e1249b0726a3b4d4c216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8246e48108023f4ea9ca453d83921cfb') in 4.681908 seconds 
+  Time since last request: 0.003847 seconds.
+  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Miscellaneous/Cracks.tif
+  artifactKey: Guid(1a892705908bb8646bc1a01ab6e068a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Miscellaneous/Cracks.tif using Guid(1a892705908bb8646bc1a01ab6e068a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a3dffdcbf0447d2267b45a1b61ca3f') in 0.013159 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.140565 seconds.
-  path: Assets/FBX/trees/purplpe_tree.fbx
-  artifactKey: Guid(46668af210b1e1249b0726a3b4d4c216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/trees/purplpe_tree.fbx using Guid(46668af210b1e1249b0726a3b4d4c216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff022e819a5e7d242be1c19f38e3668') in 0.034216 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Asphalt/Ground_Asphalt_Normal.png
+  artifactKey: Guid(3a6b9bdffc17dcb44aea3f413e81ee84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Asphalt/Ground_Asphalt_Normal.png using Guid(3a6b9bdffc17dcb44aea3f413e81ee84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0930c36f459e52551c745d7a8f390ef3') in 0.015448 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1402.830654 seconds.
-  path: Assets/FBX/trees/purplpe_tree.fbx
-  artifactKey: Guid(46668af210b1e1249b0726a3b4d4c216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/trees/purplpe_tree.fbx using Guid(46668af210b1e1249b0726a3b4d4c216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ddb8400d88c8d0cafbdc12043a3c51') in 0.115834 seconds 
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Logo_2020_2K2.png
+  artifactKey: Guid(e937af7b265e5324c80530ca8184137c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Logo_2020_2K2.png using Guid(e937af7b265e5324c80530ca8184137c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf02ce1e5a0b3b39ee7ce6d3c83d3112') in 0.027509 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.789259 seconds.
-  path: Assets/FBX/trees/Materials/purple leave.mat
-  artifactKey: Guid(4692e4b671f6ea944877e0319fac458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/trees/Materials/purple leave.mat using Guid(4692e4b671f6ea944877e0319fac458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799b2f946a2a70e8c94ad0f8d9141485') in 0.080946 seconds 
+  Time since last request: 0.000012 seconds.
+  path: Assets/Ciconia Studio/Shaders/_Shared Files/Textures/RockyDirt/RockyDirt_albedo.png
+  artifactKey: Guid(975091fd01255324da00cdc05598ac59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/_Shared Files/Textures/RockyDirt/RockyDirt_albedo.png using Guid(975091fd01255324da00cdc05598ac59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9107cf7905efd9830ca8bed127746e0d') in 0.010360 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 173.636377 seconds.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Fence/Low_Fence_Albedo.png
+  artifactKey: Guid(2bbd225c2010243428e265aa5456c1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Fence/Low_Fence_Albedo.png using Guid(2bbd225c2010243428e265aa5456c1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4294ba5aba91daaa88e7d87def8da343') in 0.008107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Panel/Panel_Roughness.png
+  artifactKey: Guid(9ec36b1684e3fa04e97d3404b5916fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Panel/Panel_Roughness.png using Guid(9ec36b1684e3fa04e97d3404b5916fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790ecf102aa7637ae12944e436a2f5e4') in 0.008363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
   path: Assets/FBX/trees/Materials/tree2_DefaultMaterial_Base_Color.png
   artifactKey: Guid(5f14dd6e370ad4b4db5c6dfac2133303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/trees/Materials/tree2_DefaultMaterial_Base_Color.png using Guid(5f14dd6e370ad4b4db5c6dfac2133303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4eda174daefc3bbe2e31f2a4fe89b8') in 0.031260 seconds 
+Start importing Assets/FBX/trees/Materials/tree2_DefaultMaterial_Base_Color.png using Guid(5f14dd6e370ad4b4db5c6dfac2133303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058aa3ccc6b417a8c0cbe29562f08aca') in 0.011725 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000136 seconds.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Roughness.png
+  artifactKey: Guid(7c71c756b680c1a47b27345dccbbc51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Roughness.png using Guid(7c71c756b680c1a47b27345dccbbc51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b4afd7d1bbbd7479987e3ebdbc1912') in 0.009234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Miscellaneous/GridBox_CSDemo_Cracks.png
+  artifactKey: Guid(c1aa756b854bc0c46ab398b336ef95fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Miscellaneous/GridBox_CSDemo_Cracks.png using Guid(c1aa756b854bc0c46ab398b336ef95fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18705546c19ac563fa24820e98548922') in 0.008608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FBX/trees/Materials/tree_lo_DefaultMaterial_BaseColor.png
+  artifactKey: Guid(66ff712f4d75e0149980166680945eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/trees/Materials/tree_lo_DefaultMaterial_BaseColor.png using Guid(66ff712f4d75e0149980166680945eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484ef906280aacbbed30750719792a3f') in 0.009635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ciconia Studio/_Shared Files/UI/Button_Arrow-hover.png
+  artifactKey: Guid(226933d046cc7a149b64e0e28a9ba3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/_Shared Files/UI/Button_Arrow-hover.png using Guid(226933d046cc7a149b64e0e28a9ba3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f183dc6d04130da6bb1149220f26fb') in 0.018224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Miscellaneous/GridBox_CSDemo_NoGrid.png
+  artifactKey: Guid(953144cb18f7f6140b354697b74d93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Miscellaneous/GridBox_CSDemo_NoGrid.png using Guid(953144cb18f7f6140b354697b74d93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6e8e38feff907024f45b6a3791f309') in 0.008590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Asphalt/Ground_Asphalt_AmbientOcclusion.png
+  artifactKey: Guid(80c5d1eb86705d4469b33bbd66c2ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/_Shared Files/Demo Environment/Textures/Asphalt/Ground_Asphalt_AmbientOcclusion.png using Guid(80c5d1eb86705d4469b33bbd66c2ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815e914709ac356e9243d9da787c0a6d') in 0.009182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Panel/Panel_BaseColor_Unity.png
+  artifactKey: Guid(185714149ed634d4497bd8aec133b8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Panel/Panel_BaseColor_Unity.png using Guid(185714149ed634d4497bd8aec133b8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5a6c9864f6b880121da87351f5e9d2') in 0.008458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Ambient_Occlusion.png
+  artifactKey: Guid(33ba5140ff8350742a9be1b79eeefd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Ambient_Occlusion.png using Guid(33ba5140ff8350742a9be1b79eeefd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4eb9667cc36a22da1926644d4377387') in 0.008476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FBX/trees/Materials/tree1_low_DefaultMaterial_BaseColor.png
+  artifactKey: Guid(3f1e8e7c3c358d347914c8a1768ef7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/trees/Materials/tree1_low_DefaultMaterial_BaseColor.png using Guid(3f1e8e7c3c358d347914c8a1768ef7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e32c57cf183a9f70ea71ec74604a71d') in 0.008634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FBX/trees/Materials/leaf_alpha1.png
+  artifactKey: Guid(1cefeb1a4ce673748af64f5e5895cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/trees/Materials/leaf_alpha1.png using Guid(1cefeb1a4ce673748af64f5e5895cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d31ea1b594f0bffcff6736cecec0f41') in 0.009572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Grayscale Map/Cloud.png
+  artifactKey: Guid(8c38d2e72ca280f4783343ec9c4418f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Grayscale Map/Cloud.png using Guid(8c38d2e72ca280f4783343ec9c4418f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb699624b7655faf6ae5797a639166f') in 0.029076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
   path: Assets/FBX/trees/Materials/tree2_DefaultMaterial_Normal.png
   artifactKey: Guid(7f2d66d4ea7d0e849b10b5a4af85504f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/trees/Materials/tree2_DefaultMaterial_Normal.png using Guid(7f2d66d4ea7d0e849b10b5a4af85504f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba24013d6bb4748250fd18126637d6d') in 0.021022 seconds 
+Start importing Assets/FBX/trees/Materials/tree2_DefaultMaterial_Normal.png using Guid(7f2d66d4ea7d0e849b10b5a4af85504f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c95b4b49254be943e2c82181216aa3b') in 0.009908 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000125 seconds.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Fence/Low_Fence_normal.png
+  artifactKey: Guid(c5d14b055690f8f49aad7ba715b7afaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Fence/Low_Fence_normal.png using Guid(c5d14b055690f8f49aad7ba715b7afaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999dec4c49a5f3a0e3e89c8c7748abee') in 0.010077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Grayscale Map/Distortion.png
+  artifactKey: Guid(d544c5d8d8f2e204cbf611243d25bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Grayscale Map/Distortion.png using Guid(d544c5d8d8f2e204cbf611243d25bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8addcdd0c5c70f0aa57cdabe3d66188b') in 0.011001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FBX/Start scene/Materials/firepit_Wood_M_BaseColor.png
+  artifactKey: Guid(4dfc506db315eb847aedbf923e9dc76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Start scene/Materials/firepit_Wood_M_BaseColor.png using Guid(4dfc506db315eb847aedbf923e9dc76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8986f8fcf35eade1ff6c27f3134794cf') in 0.010192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
   path: Assets/FBX/trees/Materials/tree2_DefaultMaterial_Metallic.png
   artifactKey: Guid(373478bb1f4e80c46a9768b367ccd15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/trees/Materials/tree2_DefaultMaterial_Metallic.png using Guid(373478bb1f4e80c46a9768b367ccd15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ea3b732a5ff486a5514954a341ced0') in 0.021559 seconds 
+Start importing Assets/FBX/trees/Materials/tree2_DefaultMaterial_Metallic.png using Guid(373478bb1f4e80c46a9768b367ccd15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b67780463bfac1a84621abe05409908') in 0.009777 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.386656 seconds.
-  path: Assets/FBX/trees/Materials/tree2_DefaultMaterial_Normal.png
-  artifactKey: Guid(7f2d66d4ea7d0e849b10b5a4af85504f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/trees/Materials/tree2_DefaultMaterial_Normal.png using Guid(7f2d66d4ea7d0e849b10b5a4af85504f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf770bc2e8981976d47b51e157a855e') in 0.016424 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Grayscale Map/Fibers.png
+  artifactKey: Guid(953eab576c42ff84bbf116175e0b6574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/_Shared Files/Textures/Grayscale Map/Fibers.png using Guid(953eab576c42ff84bbf116175e0b6574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cfd46c9fd12959f58bb402b01e4a4f') in 0.010169 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 64.778574 seconds.
-  path: Assets/Prefabs/Trees/Purple Tree.prefab
-  artifactKey: Guid(6d99a31184b46dc43850eb678b47cdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Trees/Purple Tree.prefab using Guid(6d99a31184b46dc43850eb678b47cdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fef6e7e18e707f747ad2522201c3fba') in 0.026234 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001586 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
-Domain Reload Profiling:
-	ReloadAssembly (891ms)
-		BeginReloadAssembly (129ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (718ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (385ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (311ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1652 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.5 MB.
-System memory in use after: 103.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2210.
-Total: 2.361300 ms (FindLiveObjects: 0.142200 ms CreateObjectMapping: 0.035800 ms MarkObjects: 2.059900 ms  DeleteObjects: 0.122500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 8.466054 seconds.
+  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Wall & Window/Window_Wood_AlbedoTransparency.png
+  artifactKey: Guid(38d032c60c8f3294f812389e262ca6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/Demo Scene/Sources/Models/Wall & Window/Window_Wood_AlbedoTransparency.png using Guid(38d032c60c8f3294f812389e262ca6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd47c86a7dc90b675d8cbff2367b48ef') in 0.026279 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
